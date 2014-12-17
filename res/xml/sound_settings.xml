@@ -124,10 +124,15 @@
           android:title="@string/docking_sounds_title" />
 
         <!-- Screenshot sound -->
-	<org.aospextended.extensions.preference.SystemSettingSwitchPreference
+	<com.android.settings.custom.preferences.SystemSettingSwitchPreference
           android:key="screenshot_sound"
           android:title="@string/screenshot_sound_title"
           android:defaultValue="true" />
+
+        <!-- Volume adjustment sounds -->
+        <SwitchPreference
+          android:key="volume_adjust_sounds"
+          android:title="@string/volume_adjust_sounds_title" />
 
         <!-- Touch sounds -->
         <SwitchPreference
