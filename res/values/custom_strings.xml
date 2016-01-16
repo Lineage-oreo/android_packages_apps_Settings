@@ -53,4 +53,9 @@
     <string name="hardware_keys_action_screenshot">Screenshot</string>
     <string name="hardware_keys_action_partial_screenshot">Partial screenshot</string>
     <string name="hardware_keys_action_pip">PiP</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+
 </resources>
