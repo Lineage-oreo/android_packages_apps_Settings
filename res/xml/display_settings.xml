@@ -125,6 +125,12 @@
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
 
+    <com.android.settings.custom.preferences.SystemSettingSwitchPreference
+        android:key="toast_icon"
+        android:title="@string/toast_icon_title"
+        android:summary="@string/toast_icon_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
