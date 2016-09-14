@@ -78,4 +78,9 @@
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
 </resources>
