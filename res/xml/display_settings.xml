@@ -17,6 +17,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     android:title="@string/display_settings"
     settings:keywords="@string/keywords_display">
 
@@ -60,9 +61,15 @@
         android:entries="@array/screen_timeout_entries"
         android:entryValues="@array/screen_timeout_values" />
 
+    <!-- Disabled on Lineage
     <SwitchPreference
         android:key="auto_rotate"
-        android:title="@string/accelerometer_title" />
+        android:title="@string/accelerometer_title" /> -->
+
+    <!-- Rotation -->
+    <org.lineageos.internal.lineageparts.LineagePartsPreference
+        android:key="rotation"
+        lineage:requiresFeature="android.hardware.sensor.accelerometer" />
 
     <Preference
         android:key="color_mode"
