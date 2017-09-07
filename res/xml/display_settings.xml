@@ -133,6 +133,24 @@
         android:summary="@string/status_bar_double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
+    <PreferenceCategory
+        android:key="dashboard_category"
+        android:title="@string/dashboard_category">
+
+    <com.android.settings.custom.preferences.SystemSettingSwitchPreference
+        android:key="enable_conditions"
+        android:title="@string/dashboard_conditions_title"
+        android:summaryOn="@string/summary_dashboard_conditions_enabled"
+        android:summaryOff="@string/summary_dashboard_conditions_disabled"
+        android:defaultValue="true" />
+
+    <com.android.settings.custom.preferences.SystemSettingSwitchPreference
+        android:key="enable_suggestions"
+        android:title="@string/dashboard_suggestions_title"
+        android:summaryOn="@string/summary_dashboard_suggestions_enabled"
+        android:summaryOff="@string/summary_dashboard_suggestions_disabled"
+        android:defaultValue="true" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
@@ -144,6 +162,8 @@
         android:persistent="false"
         android:entries="@array/system_theme_style_entries"
         android:entryValues="@array/system_theme_style_values" />
+
+    </PreferenceCategory>
 
     <Preference
         android:key="vr_display_pref"
