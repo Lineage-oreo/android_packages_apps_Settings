@@ -19,6 +19,7 @@
 
     <!-- Buttons -->
     <string name="button_title">Buttons</string>
+    <string name="button_settings_summary">Hardware keys customization</string>
 
     <!-- Buttons backlight -->
     <string name="button_brightness_title">Backlight</string>
