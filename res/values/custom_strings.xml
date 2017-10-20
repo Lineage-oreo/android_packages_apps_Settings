@@ -70,4 +70,8 @@
     <string name="system_theme_style_light">Light style</string>
     <string name="system_theme_style_dark">Dark style</string>
 
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>
+
 </resources>
